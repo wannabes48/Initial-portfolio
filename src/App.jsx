@@ -39,7 +39,7 @@ export default function Portfolio() {
       <div className="max-w-4xl mx-auto text-white mb-32">
         <h1 className="text-[120px] leading-none font-serif mb-8">Hello,<br/>World.</h1>
         <p className="text-xl font-light max-w-2xl">
-          👋 My name is Daniel. I'm a tech innovator and it is lovely to meet you. Check out my work below.
+          👋 My name is Daniel. I'm a Software Developer and a Tech Innovator. It is lovely to meet you. Check out my work below.
         </p>
       </div>
 
