@@ -2,6 +2,11 @@ import React from "react";
 import { Card, CardContent } from "./components/ui/card";
 import { Button } from "./components/ui/button";
 
+// Import project images
+import quickdropImg from "./assets/images/quickdrop.jpg";
+import spaceOptimizerImg from "./assets/images/space-optimizer.jpg";
+import dersImg from "./assets/images/ders.jpg";
+
 export default function Portfolio() {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -61,7 +66,7 @@ export default function Portfolio() {
           <div className="group">
             <div className="mb-6 overflow-hidden rounded-lg">
               <img 
-                src="https://placehold.co/600x400/blue/white" 
+                src={quickdropImg} 
                 alt="QuickDrop Preview"
                 className="w-full transition-transform duration-500 group-hover:scale-105"
               />
@@ -84,7 +89,7 @@ export default function Portfolio() {
           <div className="group">
             <div className="mb-6 overflow-hidden rounded-lg">
               <img 
-                src="https://placehold.co/600x400/purple/white" 
+                src={spaceOptimizerImg} 
                 alt="Space Optimizer Preview"
                 className="w-full transition-transform duration-500 group-hover:scale-105"
               />
@@ -107,7 +112,7 @@ export default function Portfolio() {
           <div className="group">
             <div className="mb-6 overflow-hidden rounded-lg">
               <img 
-                src="https://placehold.co/600x400/indigo/white" 
+                src={dersImg} 
                 alt="DERS Preview"
                 className="w-full transition-transform duration-500 group-hover:scale-105"
               />
